@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    background-color: rgb(243, 249, 249);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    border-radius: 200px;
+}
+button{
+    background-color: rgb(21, 158, 156);
+    color: white;
+    padding: 5px 10px;
+    border: white 1px solid;
+    border-radius: 10px;
+    font-weight: 700;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li:hover{
+   font-weight: 1000;
+}
+nav ul li a{
+    color: rgb(245, 247, 250);
+    background-color: rgb(20, 198, 180);
+    padding: 5px 10px;
+    border: white 1px solid;
+    border-radius: 10px;
+    font-weight: 700;
+    width: fit-content;
+}
+nav ul li a:hover{
+    color: rgb(5, 156, 120);
+    background-color: #fff;
+}
+.search-field{
+     display: flex;
+     gap: 20px;
+}
+input{
+    padding: 5px 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+::placeholder{
+    color: rgb(10, 8, 8);
+}
+/* HEro section */
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-left-section{
+    width: 60%;
+    padding: 0 10%;
+}
+.hero-left-section h1{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.hero-left-section h1 span {
+    color: rgb(36, 186, 202);
+    font-weight: 900;
+    padding: 0 15px;
+}
+.hero-left-section p{
+    font-weight: 500;
+    font-size: 30px;
+}
+.hero-left-section p span{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(25, 179, 230);
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-right-section-btn{
+    display: flex;
+    align-items: center;
+}
+.hero-right-section img{
+    border-radius: 90px;
+}
+/* Footer */
+footer{
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-around;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
+footer p{
+    padding: 20px;
+}
+.fa-brands {
+    color: rgb(31, 170, 161);
+}
+.fa-square-facebook:hover{
+    color: rgb(66, 85, 194);
+}
+.fa-square-whatsapp:hover{
+    color: rgb(50, 233, 26);
+}
+.fa-discord:hover{
+    color: blue;
+}
