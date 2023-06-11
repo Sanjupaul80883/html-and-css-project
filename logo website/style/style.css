@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: white;
+}
+header div{
+    display: flex;
+    height: 30%;
+}
+.logo{
+    height: 50px;
+    width: 120px;
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 10px ;
+}
+header ul li{
+    margin: 5px;
+    padding: 7px 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+header ul li:hover{
+    background-color: #7214e4;
+    color: #f4eaea;
+    border-radius: 10px;
+}
+header div button{
+    width: 90px;
+    border: none;
+    background-color: #7214e4;
+    color: #f4eaea;
+    border-radius: 10px;
+    padding: 10px 11px;
+    margin: 25px 400px;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #fff;
+    color: #7214e4;
+}
+main{
+    display: flex;
+    height: 60%;
+}
+main div h1{
+    padding: 100px 20px 5px;
+    width: 250px;
+    font-size: 40px;
+
+}
+main div h1 span{
+    font-weight: 700;
+    color: #7214e4;
+ 
+}
+main div p{
+    padding: 20px;
+    height: 30px;
+    width: 400px;
+    font-size: 14px;
+}
+main div button{
+    padding: 10px 17px;
+    margin: 10px 10px 10px 20px;
+    border: none;
+    font-size: 12px;
+    background-color: #7214e4;
+    color: #f4eaea;
+    border-radius: 10px;
+    font-weight: 400;
+}
+main div img{
+    width: 500px;
+}
