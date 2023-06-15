@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMAIL</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Slab:wght@700&family=Roboto:wght@300;400;500&family=Unbounded:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            /* font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Slab', serif; */
+            /* font-family: 'Unbounded', cursive; */
+            font-weight: 500;
+        }
+        
+        .navigation{
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            box-shadow: 0px 3px 3px #e4e4e4;
+            padding: 5px 110px;
+        }
+        .btn{
+            padding: 12px 25px;
+            font-size: 15px;
+            border: none;
+            color: #1571e9;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .btn:hover{
+            background-color: #d8e5f9;
+        }
+        .Create_an_account{
+            background-color: #1a73e8;
+            color: #ffffff;
+        }
+        .Create_an_account:hover{
+            background-color: #1352a4;
+            color: #ffffff;
+            
+        }
+        .sign_in{
+            border: .2px solid rgb(211, 211, 211);
+        }
+        .left_nav{
+            display: flex;
+            gap: 5px;
+        }
+        .right_nav{
+            display: flex;
+            gap: 10px;
+        }
+        .main_section{
+            display: flex;
+            gap: 100px;
+            margin-top: 50px;
+            margin: 80px 10px 0px 100px;
+        }
+        .left_main{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            gap: 20px;
+           padding: 50px;
+           
+        }
+        .secure{
+            font-size: 60px;
+            
+        }
+        .right_main img{
+            height: 600px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="web_page">
+        <nav class="navigation">
+            <div class="left_nav">
+                <img src="./gmail_logo.png" alt="" height="30px">
+                <h3>Gmail</h3>
+            </div>
+            <div class="right_nav">
+                <button class="for_work btn">For Work </button>
+                <button class="sign_in btn">Sign in</button>
+                <button class="Create_an_account btn">Create an Account</button>
+            </div>
+        </nav>
+        <main class="main_section">
+            <div class="left_main">
+                <h1 class="secure">Secure, smart and easy to use email</h1>
+                <p>Get ,ore done with Gmail, Now integrated with Google Chat, Google Meet, and more, all in one place.</p>
+                <div>
+                    <button class="Create_an_account btn">Create an Account</button>
+                    <button class="for_work btn">For Work</button>
+                </div>
+            </div>
+                <div class="right_main">
+                    <img src="./gmail_page.png" alt="Gmail Page">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

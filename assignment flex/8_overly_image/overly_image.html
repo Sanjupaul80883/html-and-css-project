@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Image</title>
+    <style>
+        .container{
+            height: 100vh;
+             /* width: 100vw; */
+             display: flex;
+             align-items: center;
+             justify-content: center;
+        }
+        .images{
+            
+            padding: 20px;
+            border-radius: 10px;
+
+
+        }
+        .images > img{
+            height: 150px;
+            width: 150px;
+            border-radius: 300px;
+            padding: 5px;
+            background-color: #fff;
+        }
+        .image1{
+            position: relative;
+            top: 5px;
+            left: 10px;
+            z-index: 5;
+        }
+        .image2{
+            position: relative;
+            top: 5px;
+            left: -20px;
+            z-index: 4;
+        }
+        .image3{
+            position: relative;
+            top: 5px;
+            left: -50px;
+            z-index: 3;
+        }
+        .image4{
+            position: relative;
+            top: 5px;
+            left: -80px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body style="background-color: #302f2f;">
+    <div class="container">
+        <div class="images">
+            <img class="image1" src="./face1 (1).jpg" alt="face image" class="face1">
+            <img class="image2" src="./face1 (2).jpg" alt="face image" class="face2">
+            <img class="image3" src="./face1 (3).jpg" alt="face image" class="face3">
+            <img class="image4" src="./face1 (4).jpg" alt="face image" class="face4">
+        </div>
+    </div>
+</body>
+</html>

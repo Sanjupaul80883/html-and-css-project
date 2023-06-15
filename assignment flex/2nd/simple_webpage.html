@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web page with course details</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+            box-sizing: border-box;
+        }
+        .programs{
+            color: #3c3cb7;
+            margin: 5px;
+        }
+        .program_container{
+            background-color: #bbe2f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card{
+            height: 100%px;
+            width: 420px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 2px 2px 7px #979797;
+            padding: 10px;
+            margin: 10px;
+        }
+        .card img{
+             height: 220px;
+             width: 400px;
+             border-radius: 10px;
+        }
+        .course_details{
+            margin: 5px;
+            color: #3c3cb7;
+            font-weight: 600;
+        }
+        .instructor_name{
+            margin: 5px;
+        }
+        .price{
+            margin: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <main class="program_container">
+        <h1 class="programs">Community Program</h1>
+        <p class="description">Open to all pro-live classes on youtube for free.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="image1.jpg" alt="">
+                <p class="course_details">Master class Understanding APIs in Web Development with road-map </p>
+                <p class="instructor_name">Hitesh Choudhary</p>
+                <p class="price">FREE</p>
+            </div>
+            <div class="card">
+                <img src="image2.jpg" alt="">
+                <p class="course_details">Master class Cracking the coding interview LinkList</p>
+                <p class="instructor_name">Vishwa Mohan</p>
+                <p class="price">FREE</p>
+            </div>
+            <div class="card">
+                <img src="image3.jpg" alt="">
+                <p class="course_details">Master Class Important of DSA in Modern Programming</p>
+                <p class="instructor_name">Priya Bhatiya</p>
+                <p class="price">FREE</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
