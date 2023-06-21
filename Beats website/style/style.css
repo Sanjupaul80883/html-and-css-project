@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+   margin: 10px 15px ;
+}
+body{
+    background-color: #0d0b25;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100vw; */
+    height: 10vh;
+    margin: 10px 10px;
+    font-size: 20px;
+    gap: 300px;
+    
+}
+.shope{
+    padding: 5px 20px 9px;
+    background-color: #2f2f2f;
+    border-radius: 5px;
+    box-shadow: -2px -2px 1px rgb(110, 110, 110);
+}
+.headimg{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    height: 500px;
+    
+}
+.logo{
+    
+    width: 80px;
+    height: 70px;
+}
+
+.home {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+   
+}
+.home li a{
+    text-decoration: none;
+}
+/* HeroSection */
+.herosection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+    /* flex-direction: column; */
+   /* position: absolute; */
+   width: 400px;
+   right:200px;
+}
+.discription{
+    width: 300px;
+   font-size: 20px;
+   padding: 10px;
+  
+}
+.beats{
+    font-size: 50px;
+}
+.btn{
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 240px;
+}
+.media ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+/* Specs section */
+.specs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.specs ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.spacename{
+    display: flex;
+    flex-direction: column;
+}
+.side{
+   padding-left: 30px;
+}
+/* Case Section */
+.case {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px 400px;
+}
+
+.case_btn{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #262626;
+    border-radius: 5px;
+    margin-top: 20px;
+    gap: 0px;
+    border: none;
+    
+}  
+/* Look Section */
+.look{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1b2a;
+    margin: 100px;
+    border-radius: 20px;
+   
+}
+/* Product Section */
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products {
+    display: flex;
+    flex-direction: column;
+   
+}
+.product div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.product div div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #24222c;
+
+  height: 200px;
+  width: 200px;
+  font-size: 10px;
+}
+.headphone {
+    height: 150px;
+     margin-bottom: 20px;
+}
+/* .product div div img{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+} */
+.btns{
+    background-color: #24222c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: none;
+   
+    width: 200px;
+    font-size: 10px;
+}
+/* Footer Section */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bot{
+   
+        background-color: #24222c;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 5px;
+        border: none;
+       
+        width: 300px;
+        font-size: 10px;
+    
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 20px;
+    background-color: #121010;
+    border-radius: 5px;
+}
